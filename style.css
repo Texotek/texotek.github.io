@@ -133,6 +133,7 @@ header nav ul li a {
 
 #home img:hover {
   opacity: 0.6;
+  
 }
 
 #home img {
@@ -151,8 +152,8 @@ header nav ul li a {
 
 /**Work****************************/
 
-#work {
-transform: scale(1.1);
+#work ul li:hover {
+  transform: scale(1.1);
   -webkit-transform: scale(1.2);
 }
 
