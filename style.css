@@ -56,14 +56,20 @@ hr {
 
 #logo {
   transition: all 300ms; -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;-o-transition: all 300ms;
 }
 li {
   transition: all 300ms; -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;-o-transition: all 300ms;
 }
 #home img, img {
   transition: all 300ms; -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;-o-transition: all 300ms;
 }
 
+@media screen and (max-width:980px){
+
+ }
 
 
 /* Header ***************************************/
@@ -71,14 +77,13 @@ li {
 header {
   width: 100%;
   height: 65px;
-  backround: white;
+  background: white;
   position: fixed;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  z-index: 1;
+  z-index: 13;
 }
 
 header, #logo {
-  with: 11px;
   float: left
   ;
 
@@ -96,6 +101,7 @@ header, #logo {
 #main-nav ul li {
   float:right;
   margin: 10px 50px 0 0;
+  z-index: 13;
 }
 
 
@@ -133,7 +139,7 @@ header nav ul li a {
 
 #home img:hover {
   opacity: 0.6;
-  
+
 }
 
 #home img {
@@ -148,13 +154,17 @@ header nav ul li a {
 #about img:hover {
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
-}
+  -moz-transform:  scale(1.1);
+  -o-transform: scale(1.1)
+a}
 
 /**Work****************************/
 
 #work ul li:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
   -webkit-transform: scale(1.2);
+  -moz-transform:  scale(1.2);
+  -o-transform: scale(1.2)
 }
 
 
@@ -179,7 +189,7 @@ footer {
 
 #projects {
   width: 900px
-  margin 0 auto 0 auto;
+  margin: 0 auto 0 auto;
 }
 
 #projects ul li {
