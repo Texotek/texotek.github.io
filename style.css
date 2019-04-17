@@ -130,11 +130,13 @@ header nav ul li a {
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-
+  margin-right: 0;
 }
 
 #home h1 {
-  margin: 240px auto 0 auto;
+  margin: 50px auto 0 auto;
+  font-size: 60px;
+
 }
 
 #home img:hover {
@@ -143,8 +145,11 @@ header nav ul li a {
 }
 
 #home img {
-  margin-top: 150px;
+  margin-top: 80px;
 }
+
+
+
 
 /**About****************************/
 
@@ -161,7 +166,7 @@ header nav ul li a {
 /**Work****************************/
 
 h3 {
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 }
@@ -174,14 +179,16 @@ h3 {
 }
 
 #projects ul li {
-  width: 33.3%;
+  width: 32.3%;
   float:left;
+
 }
 #projects ul li img:hover {
   transform: scale(1.2);
   -webkit-transform: scale(1.2);
   -moz-transform:  scale(1.2);
   -o-transform: scale(1.2)
+
 
 }
 /**Contact****************************/
